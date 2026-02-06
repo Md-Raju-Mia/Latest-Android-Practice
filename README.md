@@ -1,3 +1,11 @@
+# Kotlin
+**var vs val:**  
+If you need to update the value of a variable, declare the variable with the Kotlin keyword var, instead of val.  
+  
+- val keyword - Use when you expect the variable value will not change.  
+- var keyword - Use when you expect the variable value can change.  
+
+# Empty Project Jetpack Compose
 **onCreate():**  
 The onCreate() function is the entry point to this Android app and calls other functions to build the user interface.
 
