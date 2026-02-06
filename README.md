@@ -1,10 +1,13 @@
-**onCreate():**  The onCreate() function is the entry point to this Android app and calls other functions to build the user interface.
+**onCreate():**  
+The onCreate() function is the entry point to this Android app and calls other functions to build the user interface.
 
-**setContent():**  The setContent() function within the onCreate() function is used to define your layout through composable functions.
+**setContent():**  
+The setContent() function within the onCreate() function is used to define your layout through composable functions.
                   All functions marked with the @Composable annotation can be called from the setContent() function or from other Composable functions.
                   The annotation tells the Kotlin compiler that this function is used by Jetpack Compose to generate the UI.
 
-**Surface:**  To set a different background color for your introduction, you'll need to surround your text with a Surface.
+**Surface:**  
+To set a different background color for your introduction, you'll need to surround your text with a Surface.
  A Surface is a container that represents a section of UI where you can alter the appearance, such as the background color or border.
                 
 **There are a few differences with functions & composable functions.**  
