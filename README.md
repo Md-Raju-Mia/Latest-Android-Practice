@@ -105,3 +105,200 @@ ans: True
 **10. What parameter is used to align the child element to the beginning of the parent?**  
 ans: Alignment.Start
 
+
+
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+//1. Print messages
+
+/*fun main() {
+	val message1 = "Use the val keyword when the value doesn't change."
+  
+    val message2 = "Use the var keyword when the value can change."
+    
+    val message3 = "When you define a function, you define the parameters that can be passed to it."
+    
+    val message4 = "When you call a function, you pass arguments for the parameters."
+    
+    println("$message1\n$message2\n$message3\n$message4")
+}*/
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+// 2. Fix compile error
+
+/*fun main() { 
+    println("New chat message from a friend")
+}*/
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+// 3. String templates
+
+// fun main() {
+//     var discountPercentage: Int = 0
+//     var offer: String = ""
+//     val item = "Google Chromecast"
+//     discountPercentage = 20
+//     offer = "Sale - Up to $discountPercentage% discount on $item! Hurry up!"
+    
+//     println(offer)
+// }
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+// 4. String concatenation
+/*fun main() {
+    val numberOfAdults = 20
+    val numberOfKids = 30
+    val total = numberOfAdults + numberOfKids
+    println("The total party size is: $total")
+}*/
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+//5. Message formatting
+/*fun main() {
+    val baseSalary = 5000
+    val bonusAmount = 1000
+    val totalSalary = "$baseSalary + $bonusAmount"
+    println("Congratulations for your bonus! You will receive a total of $totalSalary (additional bonus).")
+}*/
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+//6. Implement basic math operations
+
+/*fun main() {
+    val firstNumber = 10
+    val secondNumber = 5
+    val result = firstNumber + secondNumber
+    
+    println("$firstNumber + $secondNumber = $result")
+}*/
+
+/*fun main() {
+    val firstNumber = 10
+    val secondNumber = 5
+    val thirdNumber = 8
+    
+    val result = add(firstNumber, secondNumber)
+    val anotherResult = add(firstNumber, thirdNumber)
+
+    println("$firstNumber + $secondNumber = $result")
+    println("$firstNumber + $thirdNumber = $anotherResult")
+}
+
+// Define add() function below this line
+fun add(NumberOne: Int, NumberTwo: Int): Int {
+    val result = NumberOne + NumberTwo
+    return result
+}*/
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+//7. Default parameters
+
+/*fun main() {
+    val operatingSystem = "Chrome OS"
+    val emailId = "sample@gmail.com"
+
+    println(displayAlertMessage(operatingSystem, emailId))
+}
+
+// Define your displayAlertMessage() below this line.
+
+fun displayAlertMessage(operatingSystem: String,emailId: String ): String{
+    return "There's a new sign-in request on $operatingSystem for your Google Account $emailId"
+}*/
+
+
+
+/*fun main() {
+    val firstUserEmailId = "user_one@gmail.com"
+
+    // The following line of code assumes that you named your parameter as emailId. 
+    // If you named it differently, feel free to update the name.
+    println(displayAlertMessage(emailId = firstUserEmailId))
+    println()
+
+    val secondUserOperatingSystem = "Windows"
+    val secondUserEmailId = "user_two@gmail.com"
+
+    println(displayAlertMessage(secondUserOperatingSystem, secondUserEmailId))
+    println()
+
+    val thirdUserOperatingSystem = "Mac OS"
+    val thirdUserEmailId = "user_three@gmail.com"
+
+    println(displayAlertMessage(thirdUserOperatingSystem, thirdUserEmailId))
+    println()
+}
+
+fun displayAlertMessage(operatingSystem: String ="Unknown OS", emailId: String ): String{
+    return "There's a new sign-in request on $operatingSystem for your Google Account $emailId"
+}*/
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+//8. Pedometer
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+//8. Move duplicate code into a function
+
+fun main() {
+    
+    val CityName1 = "Ankara"
+    val CityLowTemperature1 = 27
+    val CityHighTemperature1 = 31
+    val ChanceOfRain1 = 82
+    
+    println(CityInfo(CityName1, CityLowTemperature1, CityHighTemperature1,ChanceOfRain1))
+    println()
+    
+    val CityName2 = "Tokyo"
+    val CityLowTemperature2 = 32
+    val CityHighTemperature2 = 36
+    val ChanceOfRain2 = 10
+    
+    println(CityInfo(CityName2, CityLowTemperature2, CityHighTemperature2, ChanceOfRain2))
+    println()
+    
+    val CityName3 = "Cape Town"
+    val CityLowTemperature3 = 32
+    val CityHighTemperature3 = 36
+    val ChanceOfRain3 = 10
+    
+    println(CityInfo(CityName3, CityLowTemperature3, CityHighTemperature3, ChanceOfRain3))
+    println()
+    
+	val CityName4 = "Guatemala City"
+    val CityLowTemperature4 = 50
+    val CityHighTemperature4 = 55
+    val ChanceOfRain4 = 7
+    
+    println(CityInfo(CityName4, CityLowTemperature4, CityHighTemperature4, ChanceOfRain4))
+    println()
+    
+}
+
+fun CityInfo(CityName: String, CityLowTemparature: Int, CityHighTemparature: Int, CityChanceOfRain: Int): String{
+    
+    val CityName = "City: $CityName"
+    val CityTemperature = "Low temperature: $CityLowTemparature, High temperature: $CityHighTemparature"
+    val ChanceOfRain = "Chance of rain: $CityChanceOfRain"+"%"
+   	
+    return "$CityName\n$CityTemperature\n$ChanceOfRain"
+    
+}
+
+
+
+
+
