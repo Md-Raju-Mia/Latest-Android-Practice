@@ -13,8 +13,7 @@
   3. @Composable functions can't return anything.
 
 
-# The @Preview annotation tells Android Studio that this composable should be shown in the design view of this file.
- */
+# The @Preview annotation tells Android Studio that this composable should be shown in the design view of this file.\n
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
@@ -35,7 +34,7 @@ fun GreetingPreview() {
 
 # QUIZ
 
-**a. What does IDE stand for?**
+**a. What does IDE stand for?** \n
     ans: Integrated Development Environment
     
  **b. Which of the following are advantages of using Android Studio?**
