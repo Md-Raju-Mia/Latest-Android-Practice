@@ -70,30 +70,30 @@ fun GreetingPreview() {
 **1. What is Jetpack Compose?**  
 ans: A Modern toolkit to develop Android UI
 
-**2. Composable functions are the basic building block of Compose.**
+**2. Composable functions are the basic building block of Compose.**  
 ans: True
 
-**3. What annotation is used to annotate a Composable function?**
+**3. What annotation is used to annotate a Composable function?**  
 ans: @Composable
 
-**4. The basic standard layout elements in Compose are:**
+**4. The basic standard layout elements in Compose are:**  
 ans: Column, Row, Box
 
-**5. What is the tool window for importing, creating, managing, and using resources in your app?**
+**5. What is the tool window for importing, creating, managing, and using resources in your app?**  
 ans: Resource Manager
 
-**6. Which class is an automatically generated class by Android that contains the IDs of all resources in the project.**
+**6. Which class is an automatically generated class by Android that contains the IDs of all resources in the project.**  
 ans: The R Class
 
-**7. Which function is used is to load a drawable image resource.**
+**7. Which function is used is to load a drawable image resource.**  
 ans: The painterResource() function
 
-**8. What is the function parameter used to add accessibility text, used by talkback?**
+**8. What is the function parameter used to add accessibility text, used by talkback?**  
 ans: contentDescription
 
-**9. The Box layout stacks the UI elements on top of one another.**
+**9. The Box layout stacks the UI elements on top of one another.**  
 ans: True
 
-**10. What parameter is used to align the child element to the beginning of the parent?**
+**10. What parameter is used to align the child element to the beginning of the parent?**  
 ans: Alignment.Start
 
